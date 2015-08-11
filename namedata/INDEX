@@ -1,0 +1,30 @@
+byNameCount             Read name data formatted as gender-year
+                        combinations and accumulates total counts per
+                        name
+docsFromIndex           Return Locations from Parsed Index
+ewnames                 Name and Gender Data for England and Wales
+matchSexes              Match names across gender count
+mergeSum                Recursively merge name datasets by summing
+                        comparable name counts
+nameBinom               Read name data formatted as gender-year
+                        combinations and accumulates total count per
+                        name
+nameMetric              Compute gender balance
+namedata                Open Data for names and gender mapping
+ninames                 Name and Gender Data for Northern Ireland
+readGRONames            Read and return Scotland name data
+readNISRANames          Read and return Northern Ireland Name Data
+readONSNames            Read and return name data for England and Wales
+                        from the Office of National Statistics
+readSSANames            Read and return United States name data from
+                        the Social Security Administration
+scotnames               Name and Gender Data for Scotland
+uknames                 Name and Gender Data for the United Kingdom
+ukprocessed             Processed name data for the United Kingdom
+usnames                 Name and Gender Data for the United States
+usprocessed             Processed name data for the United States
+uuid                    Generate uuids for files (which aren'd
+                        generated in as tempfiles)
+yearBirths              Count Birth Totals
+zipDir                  Download zipped folder and extract to temp
+                        directory

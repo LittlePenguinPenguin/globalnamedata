@@ -1,0 +1,19 @@
+Package: namedata
+Maintainer: Adam Hyland <achyland@bocoup.com>
+Authors@R: c(
+    person("Adam", "Hyland",
+    email = "achyland@bocoup.com", role = c("aut", "cre")),
+    person("Irene", "Ros", role = "ctb"))
+Author: Adam Hyland with contributions from I. Ros
+Version: 0.3
+License: MIT
+Title: Tools for processing name/gender data
+Description: namedata provides a set of tools for gathering name/gender
+    mappings from publicly available data. Functions to process and classify
+    gender by incidence are provided as are open datasets from the United
+    States and the United Kingdom.
+Depends: R (>= 2.14)
+Imports: plyr, XML, gdata, RCurl, binom, reshape2
+Collate: 'NISRA.R' 'ONS.R' 'GRO.R' 'SSA.R' 'datasets.R' 'namedata.r'
+        'intern.R' 'util.R' 'classifier.R'
+Built: R 3.0.1; ; 2013-10-16 15:21:44 UTC; unix
